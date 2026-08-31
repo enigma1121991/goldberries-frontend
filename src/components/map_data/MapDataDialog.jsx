@@ -22,7 +22,7 @@ import { useTranslation } from "react-i18next";
 import { getQueryData, useGetMapData } from "../../hooks/useApi";
 import { ErrorDisplay, LoadingSpinner } from "../basic";
 
-import { MapDataViewer } from "./MapDataViewer";
+import { MapDataViewer } from "./MapDataViewerLazy";
 import { isRoomHidden } from "./viewer/entity_definitions";
 import { useViewerStore } from "./viewer/useViewerStore";
 
