@@ -139,11 +139,3 @@ export function extractCollectiblesForForm(mapData) {
   return Object.values(counts).map((c) => [c.formValue, c.formVariant, "", String(c.count), ""]);
 }
 //#endregion
-
-/**
- * Checks if a room should be hidden in anti-spoiler mode.
- * A room is hidden if it contains a "VivHelper/HideRoomInMap" entity.
- */
-export function isRoomHidden(room) {
-  return room.entities?.some((e) => e.name === "VivHelper/HideRoomInMap") ?? false;
-}

@@ -14,7 +14,7 @@ import {
   WingedGoldenBerryRenderer,
 } from "./renderers";
 
-export { COLLECTIBLE_DEFS, extractCollectibles, extractCollectiblesForForm, isRoomHidden } from "./collectibles";
+export { COLLECTIBLE_DEFS, extractCollectibles, extractCollectiblesForForm } from "./collectibles";
 
 export const LAYERS = {
   BACKGROUND: 0,
