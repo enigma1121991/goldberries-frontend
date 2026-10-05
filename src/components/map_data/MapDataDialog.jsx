@@ -23,7 +23,7 @@ import { getQueryData, useGetMapData } from "../../hooks/useApi";
 import { ErrorDisplay, LoadingSpinner } from "../basic";
 
 import { MapDataViewer } from "./MapDataViewerLazy";
-import { isRoomHidden } from "./viewer/entity_data";
+import { isRoomHidden } from "./viewer/collectibles";
 import { useViewerStore } from "./viewer/useViewerStore";
 
 export function MapDataDialog({ mapId, binPath, campaignId, initialRoom, onRoomNavigate }) {
